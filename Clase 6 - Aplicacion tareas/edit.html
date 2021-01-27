@@ -5,21 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nueva tarea</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        #guardar{
+    
+
+    padding: 7px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1b48c4;
+    background-color:rgb(197, 56, 31);
+    border-radius: 12px;
+    border: 2px solid rgb(209, 223, 14);
+    
+    }
+    </style>
 </head>
 <body>
-    <h1>Editar tarea</h1>
+    <center><h1 style="background-color:rgb(27, 120, 133); color:rgb(63, 54, 54);">Añadir tarea</h1>
+    </center>
     <form action="index.html">
         <input name="id" type="number" required min="0" step="1" hidden>
         <br>
-        <label>Fecha <input name="fecha" type="date" required></label>
+        <label><front face="verdana" color="grey"></front>Fecha <input name="fecha" type="date" required></label>
         <br>
-        <label>Materia <input name="materia" type="text" required></label>
+        <label><front face="verdana" color="grey"></front>Materia <input name="materia" type="text" required></label>
         <br>
-        <label>Descripción 
+        <label>Descripción <front face="verdana" color="grey"></front>
             <textarea name="descripcion"  rows="3" cols="50" required></textarea>
         </label>
         <br>
-        Tarea realizada:
+        <front face="verdana" color="grey"> Tarea realizada:</front>
         <label><input id="radioSi" name="realizada" type="radio" value="Sí" required>Sí</label>
         <label><input id="radioNo" name="realizada" type="radio" value="No">No</label>
         <br>
